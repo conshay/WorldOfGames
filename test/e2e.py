@@ -14,8 +14,7 @@ def scorse_service(app_url) :
     s=int(score.text)
     if s >= 0 and s <=1000 :
         return True
-    else: return False
-    wd.close()
+    else: return False, wd.close()
 
 
 
@@ -24,4 +23,6 @@ def scorse_service(app_url) :
 
 
 
-main_test()
+try:
+    main_test()
+except : print("error")
