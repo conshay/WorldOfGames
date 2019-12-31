@@ -1,7 +1,7 @@
 
 
 def main_test() :
-    if scorse_service("http://127.0.0.1:8777/") == True :
+    if scorse_service("http://192.168.99.100:8777") == True :
         print("0")
     else: print("-1")
 
