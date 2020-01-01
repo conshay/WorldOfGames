@@ -37,7 +37,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MainScores">
+  <component name="RunManager" selected="Python.e2e">
     <configuration name="MainGame" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WorldOfGames" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,8 +145,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MainScores" />
         <item itemvalue="Python.e2e" />
+        <item itemvalue="Python.MainScores" />
         <item itemvalue="Python.Score" />
         <item itemvalue="Python.MainGame" />
         <item itemvalue="Python.Utils" />
