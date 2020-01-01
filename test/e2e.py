@@ -3,7 +3,7 @@
 def main_test() :
     if scorse_service("http://192.168.99.100:8777") == True :
         print("0")
-    else: print(-1)
+    else: print("-1")
 
 
 def scorse_service(app_url) :
@@ -15,11 +15,6 @@ def scorse_service(app_url) :
     if s >= 0 and s <=1000 :
         return True
     else: return False, wd.close()
-
-
-
-
-
 
 
 main_test()
