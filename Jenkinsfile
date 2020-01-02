@@ -15,3 +15,4 @@ agent any
                 bat label: '', script: 'docker container stop worldofgames_web_1' }
                 }
       }
+      }
